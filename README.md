@@ -34,6 +34,11 @@
 
 - - -
 
+**Difference from the usual spacemacs**
+
+This spacemacs has kaomoji and seal pictures added to it on the splash screen. I am working on adding them in other places, and hopefully also a gif of a seal on the splash screen. Otherwise, this spacemacs is exactly the same as normal. It is meant to be used with my .spacemacs (look [here](https://github.com/naomiiiiiiiii/myEmacsConfig/tree/main)) which makes the homepage rainbow colored.
+
+
 **Quick Start**
 
 If you *don't* have an existing Emacs setup and want to run Spacemacs as your
