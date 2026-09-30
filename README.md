@@ -36,7 +36,7 @@
 
 **Difference from the usual spacemacs**
 
-This spacemacs has kaomoji and seal pictures added to it on the splash screen. I am working on adding them in other places, and hopefully also a gif of a seal on the splash screen. Otherwise, this spacemacs is exactly the same as normal. It is meant to be used with my .spacemacs (look [here](https://github.com/naomiiiiiiiii/myEmacsConfig/tree/main)) which makes the homepage rainbow colored.
+This spacemacs has kaomoji and seal pictures added to it on the splash screen. I am working on adding them in other places, and hopefully also a gif of a seal on the splash screen. Otherwise, this spacemacs is exactly the same as normal. It is meant to be used with my .spacemacs (look [here](https://github.com/naomiiiiiiiii/myEmacsConfig/tree/main)) which makes the homepage rainbow colored. I am pushing this work on `seal-branch` which is usually rather behind `develop`.
 
 
 **Quick Start**
