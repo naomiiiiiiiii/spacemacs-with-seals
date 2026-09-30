@@ -34,6 +34,7 @@
   (defvar spacemacs-badge-official-png)
   (defvar spacemacs-banner-directory)
   (defvar spacemacs-banner-official-png)
+  (defvar spacemacs-seal-official-png)
   (defvar spacemacs-gplv3-official-png)
   (defvar spacemacs-version)
   (defvar configuration-layer-error-count))
@@ -226,6 +227,10 @@ Cate special text banner can de reachable via `998', `cat' or `random*'.
     (cond ((eq 'official dotspacemacs-startup-banner)
            (if (and (display-graphic-p) (image-type-available-p 'png))
                spacemacs-banner-official-png
+             (spacemacs-buffer//get-banner-path 1)))
+          ((eq 'seal dotspacemacs-startup-banner)
+           (if (and (display-graphic-p) (image-type-available-p 'png))
+               spacemacs-seal-official-png
              (spacemacs-buffer//get-banner-path 1)))
           ((eq 'random dotspacemacs-startup-banner)
            (spacemacs-buffer//choose-random-text-banner))
