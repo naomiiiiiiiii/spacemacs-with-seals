@@ -45,7 +45,7 @@
 (defconst spacemacs-buffer-name "*spacemacs*"
   "The name of the spacemacs buffer.")
 
-(defconst spacemacs-buffer-logo-title "[S P A C E M A C S]"
+(defconst spacemacs-buffer-logo-title "[(•⩊• っ)3❤. ݁₊⊹ ❤. ݁˖ ݁.(:3 っ)っ❤❤❤❤ε(꜆´ω`)꜆]"
   "The title displayed beneath the logo.")
 
 (defconst spacemacs-buffer-buttons-startup-lists-offset 25
@@ -751,7 +751,7 @@ ADDITIONAL-WIDGETS: a function for inserting a widget under the frame."
     (spacemacs-buffer//notes-insert-note (concat spacemacs-release-notes-directory
                                                  spacemacs-buffer-version-info
                                                  ".txt")
-                                         (format "Important Notes (Release %s.x)"
+                                         (format "ฅ^•ﻌ•^ฅ (Release %s.x) ฅ^•ﻌ•^ฅ"
                                                  spacemacs-buffer-version-info)
                                          "Update your dotfile (SPC f e D) and\
  packages after every update"
@@ -878,7 +878,7 @@ If MESSAGEBUF is not nil then MSG is also written in message buffer."
 
 Given:           Return:
 \"[?]\"            \"spacemacs-buffer/jump-to-[?]\"
-\"Recent Files:\"  \"spacemacs-buffer/jump-to-recent-files\""
+\"(•⩊• っ)3 ❤Recent Files:❤ (•⩊• っ)3\"  \"spacemacs-buffer/jump-to-recent-files\""
     (let ((s (downcase str)))
       ;; remove last char if it's a colon
       (when (string-match ":$" s)
@@ -1369,7 +1369,7 @@ startup list.")
     (when (spacemacs-buffer//insert-file-list
            (spacemacs-buffer||propertize-heading
             (spacemacs-buffer//font-icons-icon "" 'history)
-            "Recent Files:" "r")
+            "(•⩊• っ)3❤ Recent Files: ❤(•⩊• っ)3" "r")
            recent-files-list)
       (spacemacs-buffer||add-shortcut "r" "Recent Files:")))
   (insert spacemacs-buffer-list-separator))
@@ -1428,7 +1428,7 @@ startup list.")
   (when (spacemacs-buffer//insert-file-list
          (spacemacs-buffer||propertize-heading
           (spacemacs-buffer//font-icons-icon "" 'rocket)
-          "Projects:" "p")
+          "ε(　꜆´ω`)꜆❤ Projects: ❤ε(　꜆´ω`)꜆" "p")
          (spacemacs//subseq (projectile-known-projects)
                             0 list-size))
     (spacemacs-buffer||add-shortcut "p" "Projects:")

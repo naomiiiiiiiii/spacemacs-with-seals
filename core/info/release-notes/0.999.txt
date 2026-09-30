@@ -1,8 +1,8 @@
-       ╭───────────────────────────────────────────────────────────╮
+       ╭❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤╮
 
-                    This is the current rolling release
-
-       ╰───────────────────────────────────────────────────────────╯
+                     ☆★☆YIPPEEE IT'S TIME TO PROGRAM☆★☆
+        
+       ╰❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤╯
 
 This branch contains the current version of Spacemacs which is actively
 developed following a rolling release schedule. Version upgrades are done
