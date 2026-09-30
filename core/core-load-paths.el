@@ -58,6 +58,11 @@
   (concat spacemacs-banner-directory "img/spacemacs.png")
   "Spacemacs official banner image (PNG).")
 
+;; Path to the official Spacemacs seal image (PNG format).
+(defconst spacemacs-seal-official-png
+  (concat spacemacs-banner-directory "img/emacsSeal.png")
+  "Spacemacs official seal image (PNG).")
+
 ;; Path to the official Spacemacs badge image (PNG format).
 (defconst spacemacs-badge-official-png
   (concat spacemacs-banner-directory "img/spacemacs-badge.png")
